@@ -322,7 +322,7 @@ var SoundDeviceChooserBase = class SoundDeviceChooserBase{
                     icon = this.getDefaultIcon();
                 this.menuItem.icon.icon_name = this._getIcon(icon);
             } else {
-                this.menuItem.icon.icon_name = "blank";
+                this.menuItem.icon.icon_name = null;
             }
         }
     }
@@ -414,7 +414,7 @@ var SoundDeviceChooserBase = class SoundDeviceChooserBase{
 
             this.menuItem.icon.icon_name = this._getIcon(icon);
         } else {
-            this.menuItem.icon.icon_name = "blank";
+            this.menuItem.icon.icon_name = null;
         }
     }
 
